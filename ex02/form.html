@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <style>
+        form
+        {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+        }
+        form div
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="firstname">Firstname</label>
+            <input name="firstname" type="text">
+        </div>
+        <div>
+            <label for="name">name</label>
+            <input name="name" type="text">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input name="age" type="number">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input name="phone" type="phone">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input name="email" type="email">
+        </div>
+        <div>
+            <label for="student">Student at 42 ?</label>
+            <input name="student" type="checkbox">
+        </div>
+        <div>
+            <label for="genderMale">Male</label>
+            <input type="radio" name="gender" value="Male" id="genderMale">
+            <label for="genderMale">Female</label>
+            <input type="radio" name="gender" value="Female" id="genderFemale">
+            <label for="genderOther">Other</label>
+            <input type="radio" name="gender" value="Other" id="genderOther">
+        </div>
+        <div>
+            <input type="submit" value="Run that  sexy Javascript !">
+        </div>
+    </form>
+</body>
+</html>
